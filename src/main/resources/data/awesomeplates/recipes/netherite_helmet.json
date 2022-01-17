@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "awesomeplates:netherite_plate"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_helmet",
+        "count": 1
+    }
+}

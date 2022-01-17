@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "awesomeplates:golden_plate"
+        }
+    },
+    "result": {
+        "item": "minecraft:golden_helmet",
+        "count": 1
+    }
+}
