@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "awesomeplates",
+  "version": "${version}",
+  "name": "AwesomePlates",
+  "description": "",
+  "authors": [
+    "TheButterbrotMan"
+  ],
+  "contact": {
+    "repo": "https://github.com/TheButterbrotMan/AwesomePlates"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/awesomeplates/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.thebutterbrotman.awesomeplates.client.AwesomeplatesClient"
+    ],
+    "main": [
+      "io.github.thebutterbrotman.awesomeplates.Awesomeplates"
+    ]
+  },
+  "mixins": [
+    "awesomeplates.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
