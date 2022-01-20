@@ -1,6 +1,6 @@
 package io.github.thebutterbrotman.awesomeplates;
 
-import io.github.thebutterbrotman.awesomeplates.Mod.Items;
+import io.github.thebutterbrotman.awesomeplates.common.item.Items;
 import net.fabricmc.api.ModInitializer;
 
 public class Awesomeplates implements ModInitializer {

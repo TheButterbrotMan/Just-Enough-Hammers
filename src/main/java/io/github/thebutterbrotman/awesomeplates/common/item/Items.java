@@ -1,6 +1,7 @@
-package io.github.thebutterbrotman.awesomeplates.Mod;
+package io.github.thebutterbrotman.awesomeplates.common.item;
 
 import io.github.thebutterbrotman.awesomeplates.Awesomeplates;
+import io.github.thebutterbrotman.awesomeplates.common.item.impl.HammerItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -14,7 +15,7 @@ public class Items {
     public static final Item IRON_PLATE = registerItem("iron_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item COAL_PLATE = registerItem("coal_plate"
-    , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item COPPER_PLATE = registerItem("copper_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item LAPIS_LAZULI_PLATE = registerItem("lapis_lazuli_plate"
@@ -27,12 +28,14 @@ public class Items {
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item NETHERITE_PLATE = registerItem("netherite_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item HAMMER = registerItem("hammer"
+            , new HammerItem());
 
-    private static Item registerItem(String name, Item item){
+    private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Awesomeplates.MOD_ID, name), item);
     }
 
-    public static void registerItems(){
+    public static void registerItems() {
 
     }
 
