@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "awesomeplates:item/wooden_plate"
+    "layer0": "awesomeplates:item/stone_hammer",
+
   }
 }

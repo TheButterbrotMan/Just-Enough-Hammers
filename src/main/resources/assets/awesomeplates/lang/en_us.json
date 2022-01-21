@@ -1,11 +1,16 @@
 {
-  "item.awesomeplates.emerald_plate": "Emerald Plate",
+  //Plates
   "item.awesomeplates.iron_plate": "Iron Plate",
-  "item.awesomeplates.coal_plate": "Coal Plate",
-  "item.awesomeplates.copper_plate": "Copper Plate",
-  "item.awesomeplates.lapis_lazuli_plate": "Lapis Lazuli Plate",
   "item.awesomeplates.golden_plate": "Golden Plate",
   "item.awesomeplates.diamond_plate": "Diamond Plate",
-  "item.awesomeplates.redstone_plate": "Redstone Plate",
-  "item.awesomeplates.netherite_plate": "Netherite Plate"
+  "item.awesomeplates.netherite_plate": "Netherite Plate",
+
+  //Hammer
+  "item.awesomeplates.wooden_hammer": "Wooden Hammer",
+  "item.awesomeplates.stone_hammer": "Stone Hammer"
+  "item.awesomeplates.iron_hammer": "Iron Hammer",
+  "item.awesomeplates.golden_hammer": "Golden Hammer",
+  "item.awesomeplates.diamond_hammer": "Diamond Hammer",
+  "item.awesomeplates.netherite_hammer": "Netherite Hammer"
+
 }

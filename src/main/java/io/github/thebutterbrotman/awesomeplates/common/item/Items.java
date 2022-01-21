@@ -11,14 +11,10 @@ import net.minecraft.util.registry.Registry;
 public class Items {
 
     //Wooden
-    public static final Item WOODEN_PLATE = registerItem("wooden_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item WOODEN_HAMMER = registerItem("wooden_hammer"
             , new HammerItem(59));
 
     //Stone
-    public static final Item STONE_PLATE = registerItem("stone_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item STONE_HAMMER = registerItem("stone_hammer"
             , new HammerItem(131));
 
