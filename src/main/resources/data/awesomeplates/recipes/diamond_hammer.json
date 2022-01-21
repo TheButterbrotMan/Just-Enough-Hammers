@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:diamond"
+        },
+        "S": {
+            "item": "minecraft:diamond_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "awesomeplates:diamond_hammer",
+        "count": 1
+    },
+    "group": "awesome_plates"
+}

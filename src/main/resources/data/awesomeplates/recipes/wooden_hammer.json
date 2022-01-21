@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:wooden_slabs"
+        },
+        "S": {
+            "item": "minecraft:logs"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "awesomeplates:wooden_hammer",
+        "count": 1
+    },
+    "group": "awesome_plates"
+}
