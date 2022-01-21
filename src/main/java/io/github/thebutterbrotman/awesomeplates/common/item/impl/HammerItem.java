@@ -11,8 +11,7 @@ public class HammerItem extends Item implements CustomRecipeRemainder {
     }
 
     @Override
-    public boolean hasRecipeRemainder() {
-        return true;
+    public boolean hasRecipeRemainder() {return true;
     }
 
     @Override
