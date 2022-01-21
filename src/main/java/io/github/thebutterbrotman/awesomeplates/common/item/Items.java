@@ -14,57 +14,57 @@ public class Items {
     public static final Item WOODEN_PLATE = registerItem("wooden_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item WOODEN_HAMMER = registerItem("wooden_hammer"
-            , new HammerItem());
+            , new HammerItem(50));
 
     //Tier 2
     public static final Item STONE_PLATE = registerItem("stone_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item STONE_HAMMER = registerItem("stone_hammer"
-            , new HammerItem());
+            , new HammerItem(100));
     public static final Item COAL_PLATE = registerItem("coal_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item COAL_HAMMER = registerItem("coal_hammer"
-            , new HammerItem());
+            , new HammerItem(100));
 
     //Tier 3
     public static final Item IRON_PLATE = registerItem("iron_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item IRON_HAMMER = registerItem("iron_hammer"
-            , new HammerItem());
+            , new HammerItem(200));
     public static final Item LAPIS_LAZULI_PLATE = registerItem("lapis_lazuli_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item LAPIS_LAZULI_HAMMER = registerItem("lapis_lazuli_hammer"
-            , new HammerItem());
+            , new HammerItem(100));
     public static final Item COPPER_PLATE = registerItem("copper_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item COPPER_HAMMER = registerItem("copper_hammer"
-            , new HammerItem());
+            , new HammerItem(200));
 
     //Tier 4
     public static final Item GOLDEN_PLATE = registerItem("golden_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item GOLDEN_HAMMER = registerItem("golden_hammer"
-            , new HammerItem());
+            , new HammerItem(300));
     public static final Item EMERALD_PLATE = registerItem("emerald_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item EMERALD_HAMMER = registerItem("emerald_hammer"
-            , new HammerItem());
+            , new HammerItem(300));
     public static final Item REDSTONE_PLATE = registerItem("redstone_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item REDSTONE_HAMMER = registerItem("redstone_hammer"
-            , new HammerItem());
+            , new HammerItem(300));
 
     //Tier 5
     public static final Item DIAMOND_PLATE = registerItem("diamond_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer"
-            , new HammerItem());
+            , new HammerItem(600));
 
     //Tier 6
     public static final Item NETHERITE_PLATE = registerItem("netherite_plate"
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer"
-            , new HammerItem());
+            , new HammerItem(1000));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Awesomeplates.MOD_ID, name), item);
