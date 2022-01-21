@@ -6,12 +6,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
 public class HammerItem extends Item implements CustomRecipeRemainder {
-    public HammerItem() {
-        super(new Item.Settings().maxDamage(300).group(ItemGroup.TOOLS));
+    public HammerItem(int durability) {
+        super(new Item.Settings().maxDamage(durability).group(ItemGroup.TOOLS));
     }
 
     @Override
-    public boolean hasRecipeRemainder() {return true;
+    public boolean hasRecipeRemainder() {
+        return true;
     }
 
     @Override
