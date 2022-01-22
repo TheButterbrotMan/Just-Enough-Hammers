@@ -7,10 +7,10 @@
     ],
     "key": {
         "_": {
-            "item": "minecraft:wooden_slabs"
+            "tag": "minecraft:wooden_slabs"
         },
         "S": {
-            "item": "minecraft:logs"
+            "tag": "minecraft:logs"
         },
         "/": {
             "item": "minecraft:stick"
