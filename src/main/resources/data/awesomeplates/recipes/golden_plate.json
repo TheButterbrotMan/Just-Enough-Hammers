@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " ##",
+        " ##",
+        "A  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "A": {
+            "item": "awesomeplates:hammers"
+        }
+    },
+    "result": {
+        "item": "awesomeplates:golden_plate",
+        "count": 1
+    }
+}
