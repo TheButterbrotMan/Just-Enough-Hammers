@@ -7,14 +7,14 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:gold_ingot"
         },
         "A": {
             "tag": "awesomeplates:hammers"
         }
     },
     "result": {
-        "item": "awesomeplates:diamond_plate",
+        "item": "awesomeplates:golden_plate",
         "count": 1
     }
 }

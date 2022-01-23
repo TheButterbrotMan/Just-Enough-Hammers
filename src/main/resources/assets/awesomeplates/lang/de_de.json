@@ -1,11 +1,15 @@
 {
-  "item.awesomeplates.emerald_plate": "Smaragdplatte",
+  //Plate
   "item.awesomeplates.iron_plate": "Eisenplatte",
-  "item.awesomeplates.coal_plate": "Kohleplatte",
-  "item.awesomeplates.copper_plate": "Kupferplatte",
-  "item.awesomeplates.lapis_lazuli_plate": "Lapislazuliplatte",
   "item.awesomeplates.golden_plate": "Goldplatte",
   "item.awesomeplates.diamond_plate": "Diamantplatte",
-  "item.awesomeplates.redstone_plate": "Redstoneplatte",
-  "item.awesomeplates.netherite_plate": "Netheritplatte"
+  "item.awesomeplates.netherite_plate": "Netheritplatte",
+
+  //Hammer
+  "item.awesomeplates.wooden_hammer": "Holzhammer",
+  "item.awesomeplates.stone_hammer": "Steinhammer",
+  "item.awesomeplates.iron_hammer": "Eisenhammer",
+  "item.awesomeplates.golden_hammer": "Goldhammer",
+  "item.awesomeplates.diamond_hammer": "Diamanthammer",
+  "item.awesomeplates.netherite_hammer": "Netherithammer"
 }
