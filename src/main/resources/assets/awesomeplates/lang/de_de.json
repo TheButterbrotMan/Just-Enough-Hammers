@@ -1,11 +1,10 @@
 {
-  //Plate
+  "Plates": "",
   "item.awesomeplates.iron_plate": "Eisenplatte",
   "item.awesomeplates.golden_plate": "Goldplatte",
   "item.awesomeplates.diamond_plate": "Diamantplatte",
   "item.awesomeplates.netherite_plate": "Netheritplatte",
-
-  //Hammer
+  "Hammers": "",
   "item.awesomeplates.wooden_hammer": "Holzhammer",
   "item.awesomeplates.stone_hammer": "Steinhammer",
   "item.awesomeplates.iron_hammer": "Eisenhammer",
