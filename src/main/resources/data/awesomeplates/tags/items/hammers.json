@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "awesomeplates:wooden_hammer",
+    "awesomeplates:stone_hammer",
+    "awesomeplates:iron_hammer",
+    "awesomeplates:golden_hammer",
+    "awesomeplates:diamond_hammer",
+    "awesomeplates:netherite_hammer"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:stone_slab"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "awesomeplates:stone_hammer",
+        "count": 1
+    },
+    "group": "awesome_plates"
+}
