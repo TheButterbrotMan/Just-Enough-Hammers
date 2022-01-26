@@ -29,7 +29,3 @@ body:
         You can upload it (e.g. https://bytebin.lucko.me/) and post the link
         here.
   - type: markdown
-    attributes:
-      value: >-
-        This template was generated with [Issue Forms
-        Creator](https://www.issue-forms-creator.app/)
