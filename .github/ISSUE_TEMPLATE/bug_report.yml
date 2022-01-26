@@ -28,6 +28,3 @@ body:
       placeholder: >-
         You can upload it (e.g. https://bytebin.lucko.me/) and post the link
         here.
-  - type: markdown
-    attributes:
-      value:
