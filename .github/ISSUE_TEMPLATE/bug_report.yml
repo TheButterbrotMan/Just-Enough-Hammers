@@ -26,5 +26,5 @@ body:
       label: Provide the log
       description: Please provide us with the crash-report.log and latest.log here.
       placeholder: >-
-        You can upload it (e.g. https://bytebin.lucko.me/) and post the link
+        You can upload it (e.g. Bytebin) and post the link
         here.
