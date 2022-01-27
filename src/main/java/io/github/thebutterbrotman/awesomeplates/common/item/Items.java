@@ -42,6 +42,12 @@ public class Items {
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer"
             , new HammerItem(2031));
 
+    //Dirtmond
+    public static final Item DIRTMOND_PLATE = registerItem("dirtmond_plate"
+            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
+            , new HammerItem(1051));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Awesomeplates.MOD_ID, name), item);
     }

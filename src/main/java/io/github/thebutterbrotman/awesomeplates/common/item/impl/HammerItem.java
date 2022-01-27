@@ -18,10 +18,10 @@ public class HammerItem extends Item implements CustomRecipeRemainder {
     @Override
     public ItemStack getRecipeRemainder(ItemStack stackIn) {
         ItemStack stack = stackIn.copy();
-        stack.setDamage(stack.getDamage() + 1);
+        stack.setDamage(stack.getDamage() + 4);
 
         if (stack.getDamage() >= stack.getMaxDamage()) {
-            stack.decrement(1);
+            stack.decrement(4);
         }
 
         return stack;
