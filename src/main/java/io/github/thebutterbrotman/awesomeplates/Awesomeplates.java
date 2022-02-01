@@ -1,6 +1,6 @@
 package io.github.thebutterbrotman.awesomeplates;
 
-import io.github.thebutterbrotman.awesomeplates.common.item.Items;
+import io.github.thebutterbrotman.awesomeplates.common.ModItems.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
@@ -13,7 +13,7 @@ public class Awesomeplates implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Items.registerItems();
-        ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("dm_c"), FabricLoader.getInstance().getModContainer(Awesomeplates.MOD_ID).orElseThrow(), ResourcePackActivationType.DEFAULT_ENABLED);
+        ModItems.registerItems();
+        ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("dirtmonds"), FabricLoader.getInstance().getModContainer(Awesomeplates.MOD_ID).orElseThrow(), ResourcePackActivationType.DEFAULT_ENABLED);
     }
 }

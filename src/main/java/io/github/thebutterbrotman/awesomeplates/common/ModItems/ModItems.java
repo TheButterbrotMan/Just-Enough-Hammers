@@ -1,14 +1,14 @@
-package io.github.thebutterbrotman.awesomeplates.common.item;
+package io.github.thebutterbrotman.awesomeplates.common.ModItems;
 
 import io.github.thebutterbrotman.awesomeplates.Awesomeplates;
-import io.github.thebutterbrotman.awesomeplates.common.item.impl.HammerItem;
+import io.github.thebutterbrotman.awesomeplates.common.ModItems.impl.HammerItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class Items {
+public class ModItems {
 
     //Wooden
     public static final Item WOODEN_HAMMER = registerItem("wooden_hammer"
@@ -41,12 +41,6 @@ public class Items {
             , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer"
             , new HammerItem(2031));
-
-    //Dirtmond
-    public static final Item DIRTMOND_PLATE = registerItem("dirtmond_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
-            , new HammerItem(1051));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Awesomeplates.MOD_ID, name), item);

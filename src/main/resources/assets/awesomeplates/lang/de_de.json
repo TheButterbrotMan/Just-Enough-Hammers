@@ -1,9 +1,4 @@
 {
-  "Plates": "",
-  "item.awesomeplates.iron_plate": "Eisenplatte",
-  "item.awesomeplates.golden_plate": "Goldplatte",
-  "item.awesomeplates.diamond_plate": "Diamantplatte",
-  "item.awesomeplates.netherite_plate": "Netheritplatte",
   "Hammers": "",
   "item.awesomeplates.wooden_hammer": "Holzhammer",
   "item.awesomeplates.stone_hammer": "Steinhammer",
@@ -11,7 +6,9 @@
   "item.awesomeplates.golden_hammer": "Goldhammer",
   "item.awesomeplates.diamond_hammer": "Diamanthammer",
   "item.awesomeplates.netherite_hammer": "Netherithammer",
-  "Dirtmond": "",
-  "item.awesomeplates.dirtmond_hammer": "Erdmanthammer",
-  "item.awesomeplates.dirtmond_plate": "Erdmantplatte"
+  "Plates": "",
+  "item.awesomeplates.iron_plate": "Eisenplatte",
+  "item.awesomeplates.golden_plate": "Goldplatte",
+  "item.awesomeplates.diamond_plate": "Diamantplatte",
+  "item.awesomeplates.netherite_plate": "Netheritplatte"
 }
