@@ -1,11 +1,14 @@
 {
-  "item.awesomeplates.emerald_plate": "绿宝石板",
+  "Plates": "",
   "item.awesomeplates.iron_plate": "铁板",
-  "item.awesomeplates.coal_plate": "煤炭板",
-  "item.awesomeplates.copper_plate": "铜板",
-  "item.awesomeplates.lapis_lazuli_plate": "青金石板",
   "item.awesomeplates.golden_plate": "金板",
   "item.awesomeplates.diamond_plate": "钻石板",
-  "item.awesomeplates.redstone_plate": "红石板",
-  "item.awesomeplates.netherite_plate": "下界合金板"
+  "item.awesomeplates.netherite_plate": "下界合金板",
+  "Hammers": "",
+  "item.awesomeplates.wooden_hammer": "木锤",
+  "item.awesomeplates.stone_hammer": "石锤",
+  "item.awesomeplates.iron_hammer": "铁锤",
+  "item.awesomeplates.golden_hammer": "金锤",
+  "item.awesomeplates.diamond_hammer": "钻石锤",
+  "item.awesomeplates.netherite_hammer": "下界合金锤",
 }

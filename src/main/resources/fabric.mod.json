@@ -2,10 +2,11 @@
   "schemaVersion": 1,
   "id": "awesomeplates",
   "version": "${version}",
-  "name": "AwesomePlates",
-  "description": "",
+  "name": "Awesome Plates",
+  "description": "Awesome Plates revamps the armor crafting process in Minecraft.",
   "authors": [
-    "TheButterbrotMan"
+    "TheButterbrotMan",
+    "mikhailtapio"
   ],
   "contact": {
     "repo": "https://github.com/TheButterbrotMan/AwesomePlates"
