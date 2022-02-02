@@ -18,7 +18,7 @@ public class Awesomeplates implements ModInitializer {
         ModItems.registerItems();
         InterModItems.registerItems();
         if (LoadedMod.DIRTMONDS_LOADED) {
-            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("dirtmonds"), FabricLoader.getInstance().getModContainer(Awesomeplates.MOD_ID).orElseThrow(), ResourcePackActivationType.DEFAULT_ENABLED);
+            ResourceManagerHelper.registerBuiltinResourcePack(new Identifier("awp_dirtmonds"), FabricLoader.getInstance().getModContainer(Awesomeplates.MOD_ID).orElseThrow(), ResourcePackActivationType.ALWAYS_ENABLED);
         }
     }
 }
