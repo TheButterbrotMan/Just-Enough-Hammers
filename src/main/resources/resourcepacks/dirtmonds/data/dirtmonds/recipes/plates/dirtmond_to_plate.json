@@ -8,7 +8,7 @@
       "item": "dirtmonds:dirtmond"
     },
     {
-      "tag": "awesomeplates:hammers"
+      "tag": "awesome_plates:hammers"
     },
     {
       "item": "dirtmonds:dirtmond"
@@ -18,7 +18,8 @@
     }
   ],
   "result": {
-    "item": "awesomeplates:dirtmond_plate",
+    "item": "awesome_plates:dirtmond_plate",
     "count": 1
-  }
+  },
+  "group": "awesome_plates"
 }

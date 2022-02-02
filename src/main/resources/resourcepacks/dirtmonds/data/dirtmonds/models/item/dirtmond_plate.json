@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "awesomeplates:item/dirtmond_plate"
+    "layer0": "awesome_plates:item/dirtmond_plate"
   }
 }
