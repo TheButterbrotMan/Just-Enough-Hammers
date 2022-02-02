@@ -8,5 +8,5 @@ public class PlateItem extends Item {
     public PlateItem() {
         super(new FabricItemSettings().group(ItemGroup.MATERIALS));
     }
-//PLEASE ADD ItemGroup MATERIALS @TAPIO -Okay
+
 }

@@ -1,30 +1,32 @@
 package io.github.thebutterbrotman.awesomeplates.common.compatibilities.item;
 
+import io.github.thebutterbrotman.awesomeplates.Awesomeplates;
 import io.github.thebutterbrotman.awesomeplates.common.compatibilities.util.LoadedMod;
 import io.github.thebutterbrotman.awesomeplates.common.item.impl.HammerItem;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import io.github.thebutterbrotman.awesomeplates.common.item.impl.PlateItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static io.github.thebutterbrotman.awesomeplates.common.compatibilities.util.LoadedMod.DIRTMONDS_MODID;
+
 
 public class InterModItems {
 
-    private static Item registerItem(String modNameSpace, String itemName, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(modNameSpace, itemName), item);
+    private static Item registerItem(String name, Item item) {
+        return Registry.register(Registry.ITEM, new Identifier(Awesomeplates.MOD_ID, name), item);
+
     }
 
     public static void registerItems() {
+
         //Dirtmonds
         if (LoadedMod.DIRTMONDS_LOADED) {
-            registerItem(DIRTMONDS_MODID, "dirtmond_plate"
-                    , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-            registerItem(DIRTMONDS_MODID, "dirtmond_hammer"
-                    , new HammerItem(1051));
+            Item DIRTMOND_PLATE = registerItem("dirtmond_plate"
+                    , new PlateItem());
+            Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
+                   , new HammerItem(1051));
+
         }
     }
-
 }
 
