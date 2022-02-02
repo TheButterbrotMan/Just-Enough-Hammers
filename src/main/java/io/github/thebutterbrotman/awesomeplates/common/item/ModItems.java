@@ -1,10 +1,9 @@
-package io.github.thebutterbrotman.awesomeplates.common.ModItems;
+package io.github.thebutterbrotman.awesomeplates.common.item;
 
 import io.github.thebutterbrotman.awesomeplates.Awesomeplates;
-import io.github.thebutterbrotman.awesomeplates.common.ModItems.impl.HammerItem;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import io.github.thebutterbrotman.awesomeplates.common.item.impl.HammerItem;
+import io.github.thebutterbrotman.awesomeplates.common.item.impl.PlateItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -20,25 +19,25 @@ public class ModItems {
 
     //Iron
     public static final Item IRON_PLATE = registerItem("iron_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            , new PlateItem());
     public static final Item IRON_HAMMER = registerItem("iron_hammer"
             , new HammerItem(250));
 
     //Golden
     public static final Item GOLDEN_PLATE = registerItem("golden_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            , new PlateItem());
     public static final Item GOLDEN_HAMMER = registerItem("golden_hammer"
             , new HammerItem(59));
 
     //Diamond
     public static final Item DIAMOND_PLATE = registerItem("diamond_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            , new PlateItem());
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer"
             , new HammerItem(1561));
 
     //Netherite
     public static final Item NETHERITE_PLATE = registerItem("netherite_plate"
-            , new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+            , new PlateItem());
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer"
             , new HammerItem(2031));
 

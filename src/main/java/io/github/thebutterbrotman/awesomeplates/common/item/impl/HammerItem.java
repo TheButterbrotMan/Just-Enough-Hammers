@@ -1,4 +1,4 @@
-package io.github.thebutterbrotman.awesomeplates.common.ModItems.impl;
+package io.github.thebutterbrotman.awesomeplates.common.item.impl;
 
 import com.kwpugh.pugh_lib.api.CustomRecipeRemainder;
 import net.minecraft.item.Item;
