@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "awesomeplates",
+  "id": "awesome_plates",
   "version": "${version}",
   "name": "Awesome Plates",
   "description": "Awesome Plates revamps the armor crafting process in Minecraft.",
@@ -9,21 +9,21 @@
     "mikhailtapio"
   ],
   "contact": {
-    "repo": "https://github.com/TheButterbrotMan/AwesomePlates"
+    "repo": "https://github.com/TheButterbrotMan/Awesome-Plates"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/awesomeplates/icon.png",
+  "icon": "assets/awesome_plates/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "io.github.thebutterbrotman.awesomeplates.client.AwesomeplatesClient"
+      "io.github.thebutterbrotman.awesome_plates.client.AwesomeplatesClient"
     ],
     "main": [
-      "io.github.thebutterbrotman.awesomeplates.Awesomeplates"
+      "io.github.thebutterbrotman.awesome_plates.Awesomeplates"
     ]
   },
   "mixins": [
-    "awesomeplates.mixins.json"
+    "awesome_plates.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.12.12",
