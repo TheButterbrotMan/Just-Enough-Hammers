@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "S": {
+            "item": "minecraft:netherite_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "awesome_plates:netherite_hammer",
+        "count": 1
+    },
+    "group": "awesome_plates"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "OWI",
+    "Q Q"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_helmet"
+    },
+    "O": {
+      "item": "awesome_plates:iron_plate"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "I": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "Q": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_horse_armor",
+    "count": 1
+  }
+}

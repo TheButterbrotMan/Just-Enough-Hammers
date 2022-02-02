@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "OWI",
+    "Q Q"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_helmet"
+    },
+    "O": {
+      "item": "awesome_plates:diamond_plate"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "I": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "Q": {
+      "item": "minecraft:diamond_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor",
+    "count": 1
+  }
+}

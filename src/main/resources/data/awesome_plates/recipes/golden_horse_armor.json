@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    "OWI",
+    "Q Q"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_helmet"
+    },
+    "O": {
+      "item": "awesome_plates:golden_plate"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "I": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "Q": {
+      "item": "minecraft:golden_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_horse_armor",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "Hammers": "",
+  "item.awesome_plates.wooden_hammer": "木锤",
+  "item.awesome_plates.stone_hammer": "石锤",
+  "item.awesome_plates.iron_hammer": "铁锤",
+  "item.awesome_plates.golden_hammer": "金锤",
+  "item.awesome_plates.diamond_hammer": "钻石锤",
+  "item.awesome_plates.netherite_hammer": "下界合金锤",
+  "Plates": "",
+  "item.awesome_plates.iron_plate": "铁板",
+  "item.awesome_plates.golden_plate": "金板",
+  "item.awesome_plates.diamond_plate": "钻石板",
+  "item.awesome_plates.netherite_plate": "下界合金板"
+}
