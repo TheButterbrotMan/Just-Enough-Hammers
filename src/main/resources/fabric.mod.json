@@ -6,7 +6,7 @@
   "description": "Awesome Plates revamps the armor crafting process in Minecraft.",
   "authors": [
     "TheButterbrotMan",
-    "mikhailtapio"
+    "Mikhail Tapio"
   ],
   "contact": {
     "repo": "https://github.com/TheButterbrotMan/Awesome-Plates"
@@ -19,7 +19,7 @@
       "io.github.thebutterbrotman.awesome_plates.client.AwesomeplatesClient"
     ],
     "main": [
-      "io.github.thebutterbrotman.awesome_plates.Awesomeplates"
+      "io.github.thebutterbrotman.awesome_plates.AwesomePlates"
     ]
   },
   "mixins": [

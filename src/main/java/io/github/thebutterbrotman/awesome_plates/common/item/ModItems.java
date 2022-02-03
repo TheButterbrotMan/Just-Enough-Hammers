@@ -1,6 +1,6 @@
 package io.github.thebutterbrotman.awesome_plates.common.item;
 
-import io.github.thebutterbrotman.awesome_plates.Awesomeplates;
+import io.github.thebutterbrotman.awesome_plates.AwesomePlates;
 import io.github.thebutterbrotman.awesome_plates.common.item.impl.HammerItem;
 import io.github.thebutterbrotman.awesome_plates.common.item.impl.PlateItem;
 import net.minecraft.item.Item;
@@ -42,7 +42,7 @@ public class ModItems {
             , new HammerItem(2031));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(Awesomeplates.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(AwesomePlates.MOD_ID, name), item);
     }
 
     public static void registerItems() {

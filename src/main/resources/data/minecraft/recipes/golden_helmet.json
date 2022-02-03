@@ -10,6 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:air"
+    "item": "minecraft:gold_ingot",
+    "count": 5
   }
 }
