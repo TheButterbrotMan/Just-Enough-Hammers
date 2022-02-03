@@ -1,7 +1,7 @@
 package io.github.thebutterbrotman.awesome_plates.common.compatibilities.item;
 
 import io.github.thebutterbrotman.awesome_plates.AwesomePlates;
-import io.github.thebutterbrotman.awesome_plates.common.compatibilities.util.LoadedMod;
+import io.github.thebutterbrotman.awesome_plates.common.compatibilities.util.IMUtils;
 import io.github.thebutterbrotman.awesome_plates.common.item.impl.HammerItem;
 import io.github.thebutterbrotman.awesome_plates.common.item.impl.PlateItem;
 import net.minecraft.item.Item;
@@ -20,11 +20,15 @@ public class InterModItems {
     public static void registerItems() {
 
         //Dirtmonds
-        if (LoadedMod.DIRTMONDS_LOADED) {
+        if (IMUtils.DIRTMONDS_LOADED) {
+            IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, false);
+
             Item DIRTMOND_PLATE = registerItem("dirtmond_plate"
                     , new PlateItem());
             Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
                     , new HammerItem(1051));
+
+            IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, true);
         }
     }
 }
