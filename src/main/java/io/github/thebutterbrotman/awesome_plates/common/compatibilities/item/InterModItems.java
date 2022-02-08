@@ -5,6 +5,7 @@ import io.github.thebutterbrotman.awesome_plates.common.compatibilities.util.IMU
 import io.github.thebutterbrotman.awesome_plates.common.item.impl.HammerItem;
 import io.github.thebutterbrotman.awesome_plates.common.item.impl.PlateItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -26,7 +27,7 @@ public class InterModItems {
             Item DIRTMOND_PLATE = registerItem("dirtmond_plate"
                     , new PlateItem());
             Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
-                    , new HammerItem(1051));
+                    , new HammerItem(1051, ToolMaterials.DIAMOND, 6, -3.0F));
 
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, true);
         }
