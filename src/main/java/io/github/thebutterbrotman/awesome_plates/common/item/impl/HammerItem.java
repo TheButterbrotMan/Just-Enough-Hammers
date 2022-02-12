@@ -111,7 +111,7 @@ public class HammerItem extends SwordItem implements CustomRecipeRemainder {
         if (blockToCheck instanceof BlockWithEntity) {
             return true;
         }
-        if (blockToCheck.getHardness() == -1.0F) {
+        if (blockToCheck.getHardness() < 0F) {
             //Skip bedrock
             return true;
         }
