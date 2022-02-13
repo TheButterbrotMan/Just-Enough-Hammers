@@ -13,8 +13,10 @@
   "item.awesome_plates.diamond_plate": "Placa de Diamante",
   "item.awesome_plates.netherite_plate": "Placa de Netherita",
   "item.awesome_plates.dirtmond_plate": "Placa de Tierramante",
-  "tooltip.awesome_plates.hammer_1": "{0} Qualidade",
   "tooltip.awesome_plates.stability.high": "Alta",
   "tooltip.awesome_plates.stability.medium": "Média",
-  "tooltip.awesome_plates.stability.low": "Baixa"
+  "tooltip.awesome_plates.stability.low": "Baixa",
+  "tooltip.awesome_plates.hammer_1": "{0} Qualidade",
+  "tooltip.awesome_plates.hammer_2": "A qualidade do martelo afeta",
+  "tooltip.awesome_plates.hammer_3": "os danos que ela causa durante o uso."
 }

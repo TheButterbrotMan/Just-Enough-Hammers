@@ -12,6 +12,7 @@ import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -36,18 +37,27 @@ public class HammerItem extends SwordItem implements CustomRecipeRemainder {
     }
 
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        final String stabilityKey = switch (Math.min(10, Math.max(0, miningLevel + (int) Math.log10(stack.getMaxDamage())))) {
+        final int stability = Math.min(10, Math.max(0, miningLevel + (int) Math.log10(stack.getMaxDamage())));
+        final String stabilityKey = switch (stability) {
             case 0, 1, 2, 3 -> "low";
             case 4, 5, 6 -> "medium";
             case 7, 8, 9, 10 -> "high";
             default -> "";
         };
+        final Formatting formatting = switch (stability) {
+            case 0, 1, 2, 3 -> Formatting.DARK_RED;
+            case 4, 5, 6 -> Formatting.YELLOW;
+            case 7, 8, 9, 10 -> Formatting.GREEN;
+            default -> Formatting.WHITE;
+        };
         //todo
         tooltip.add(new LiteralText(
                 MessageFormat.format(
                         new TranslatableText("tooltip.awesome_plates.hammer_1").getString(),
-                        new TranslatableText("tooltip.awesome_plates.stability." + stabilityKey).getString())) {
-        });
+                        new TranslatableText("tooltip.awesome_plates.stability." + stabilityKey).getString())).formatted(formatting));
+        tooltip.add(new LiteralText(""));
+        tooltip.add(new TranslatableText("tooltip.awesome_plates.hammer_2").formatted(Formatting.AQUA));
+        tooltip.add(new TranslatableText("tooltip.awesome_plates.hammer_3").formatted(Formatting.AQUA));
     }
 
     @Override

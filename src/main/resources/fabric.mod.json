@@ -22,9 +22,6 @@
       "io.github.thebutterbrotman.awesome_plates.AwesomePlates"
     ]
   },
-  "mixins": [
-    "awesome_plates.mixins.json"
-  ],
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
