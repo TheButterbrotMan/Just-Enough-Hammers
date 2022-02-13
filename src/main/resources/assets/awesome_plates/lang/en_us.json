@@ -13,7 +13,7 @@
   "item.awesome_plates.diamond_plate": "Diamond Plate",
   "item.awesome_plates.netherite_plate": "Netherite Plate",
   "item.awesome_plates.dirtmond_plate": "Dirtmond Plate",
-  "tooltip.awesome_plates.hammer_1": "Hammer Stability: {0}",
+  "tooltip.awesome_plates.hammer_1": "{0} Quality",
   "tooltip.awesome_plates.stability.high": "High",
   "tooltip.awesome_plates.stability.medium": "Medium",
   "tooltip.awesome_plates.stability.low": "Low"

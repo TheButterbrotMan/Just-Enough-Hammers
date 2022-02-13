@@ -13,8 +13,8 @@
   "item.awesome_plates.diamond_plate": "Placa de Diamante",
   "item.awesome_plates.netherite_plate": "Placa de Netherita",
   "item.awesome_plates.dirtmond_plate": "Placa de Tierramante",
-  "tooltip.awesome_plates.hammer_1": "Hammer Stability: {0}",
-  "tooltip.awesome_plates.stability.high": "High",
-  "tooltip.awesome_plates.stability.medium": "Medium",
-  "tooltip.awesome_plates.stability.low": "Low"
+  "tooltip.awesome_plates.hammer_1": "{0} Qualidade",
+  "tooltip.awesome_plates.stability.high": "Alta",
+  "tooltip.awesome_plates.stability.medium": "Média",
+  "tooltip.awesome_plates.stability.low": "Baixa"
 }
