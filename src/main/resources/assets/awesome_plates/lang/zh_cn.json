@@ -11,7 +11,7 @@
   "item.awesome_plates.golden_plate": "金板",
   "item.awesome_plates.diamond_plate": "钻石板",
   "item.awesome_plates.netherite_plate": "下界合金板",
-  "tooltip.awesome_plates.hammer_1": "锤子稳定度：{0}稳定度较低的锤子参与合成时会受到更多的损耗，且更容易受到意外的大量损耗",
+  "tooltip.awesome_plates.hammer_1": "锤子稳定度：{0}",
   "tooltip.awesome_plates.stability.high": "高",
   "tooltip.awesome_plates.stability.medium": "中",
   "tooltip.awesome_plates.stability.low": "低"

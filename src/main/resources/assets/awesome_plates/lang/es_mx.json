@@ -7,11 +7,14 @@
   "item.awesome_plates.diamond_hammer": "Martillo de Diamante",
   "item.awesome_plates.netherite_hammer": "Martillo de Netherita",
   "item.awesome_plates.dirtmond_hammer": "Martillo de Tierramante",
-
   "Plates": "",
   "item.awesome_plates.iron_plate": "Placa de Hierro",
   "item.awesome_plates.golden_plate": "Placa de Oro",
   "item.awesome_plates.diamond_plate": "Placa de Diamante",
   "item.awesome_plates.netherite_plate": "Placa de Netherita",
-  "item.awesome_plates.dirtmond_plate": "Placa de Tierramante"
+  "item.awesome_plates.dirtmond_plate": "Placa de Tierramante",
+  "tooltip.awesome_plates.hammer_1": "Hammer Stability: {0}",
+  "tooltip.awesome_plates.stability.high": "High",
+  "tooltip.awesome_plates.stability.medium": "Medium",
+  "tooltip.awesome_plates.stability.low": "Low"
 }

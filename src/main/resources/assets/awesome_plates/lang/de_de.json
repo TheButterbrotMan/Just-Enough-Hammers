@@ -7,11 +7,14 @@
   "item.awesome_plates.diamond_hammer": "Diamanthammer",
   "item.awesome_plates.netherite_hammer": "Netherithammer",
   "item.awesome_plates.dirtmond_hammer": "Erdmanthammer",
-
   "Plates": "",
   "item.awesome_plates.iron_plate": "Eisenplatte",
   "item.awesome_plates.golden_plate": "Goldplatte",
   "item.awesome_plates.diamond_plate": "Diamantplatte",
   "item.awesome_plates.netherite_plate": "Netheritplatte",
-  "item.awesome_plates.dirtmond_plate": "Erdmantplatte"
+  "item.awesome_plates.dirtmond_plate": "Erdmantplatte",
+  "tooltip.awesome_plates.hammer_1": "Hammer Stability: {0}",
+  "tooltip.awesome_plates.stability.high": "High",
+  "tooltip.awesome_plates.stability.medium": "Medium",
+  "tooltip.awesome_plates.stability.low": "Low"
 }
