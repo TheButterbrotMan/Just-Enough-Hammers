@@ -10,6 +10,7 @@
     }
   },
   "result": {
-    "item": "minecraft:air"
+    "item": "minecraft:diamond",
+    "count": 4
   }
 }
