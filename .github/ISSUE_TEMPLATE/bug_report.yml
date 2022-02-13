@@ -15,7 +15,7 @@ body:
       label: Version
       description: Which version are you using?
       options:
-        - '1.0'
+        - '1.0.0+1.18.1'
     validations:
       required: true
   - type: textarea
