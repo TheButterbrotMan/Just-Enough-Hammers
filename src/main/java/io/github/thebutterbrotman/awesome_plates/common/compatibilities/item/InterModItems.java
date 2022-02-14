@@ -10,7 +10,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 
-
 public class InterModItems {
 
     private static Item registerItem(String name, Item item) {

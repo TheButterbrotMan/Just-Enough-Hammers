@@ -1,21 +1,17 @@
 package io.github.thebutterbrotman.awesome_plates.common.item.impl;
 
 import com.kwpugh.pugh_lib.api.CustomRecipeRemainder;
-import net.minecraft.block.Block;
+import io.github.thebutterbrotman.awesome_plates.common.item.util.AreaToolUtil;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.BlockWithEntity;
+import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Formatting;
-import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -23,7 +19,7 @@ import java.text.MessageFormat;
 import java.util.List;
 import java.util.Random;
 
-public class HammerItem extends SwordItem implements CustomRecipeRemainder {
+public class HammerItem extends PickaxeItem implements CustomRecipeRemainder {
     private final int miningLevel;
 
     public HammerItem(int durability, ToolMaterial material, int attackDamage, float attackSpeed) {
@@ -55,6 +51,7 @@ public class HammerItem extends SwordItem implements CustomRecipeRemainder {
                 MessageFormat.format(
                         new TranslatableText("tooltip.awesome_plates.hammer_1").getString(),
                         new TranslatableText("tooltip.awesome_plates.stability." + stabilityKey).getString())).formatted(formatting));
+
         tooltip.add(new LiteralText(""));
         tooltip.add(new TranslatableText("tooltip.awesome_plates.hammer_2").formatted(Formatting.AQUA));
         tooltip.add(new TranslatableText("tooltip.awesome_plates.hammer_3").formatted(Formatting.AQUA));
@@ -74,11 +71,27 @@ public class HammerItem extends SwordItem implements CustomRecipeRemainder {
         return stack;
     }
 
-    //Add this to prevent player breaking block by left-clicking when not sneaking
-    public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
-        return miner.isSneaking();
+    public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity playerIn) {
+        if (!world.isClient) {
+            if (!playerIn.isSneaking()) {
+                final boolean obsidianFlag = state.getBlock() == Blocks.OBSIDIAN || state.getBlock() == Blocks.CRYING_OBSIDIAN;
+                AreaToolUtil.attemptBreakNeighbors(world, playerIn, 1, obsidianFlag);
+            }
+
+            return true;
+        }
+
+        return false;
+
     }
 
+    //Add this to prevent player breaking block by left-clicking when not sneaking
+    /*
+    public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
+        return miner.isSneaking();
+    }*/
+
+    /*
     public ActionResult useOnBlock(ItemUsageContext context) {
         final PlayerEntity player = context.getPlayer();
         if (player == null) {
@@ -127,6 +140,7 @@ public class HammerItem extends SwordItem implements CustomRecipeRemainder {
         }
     }
 
+
     public boolean checkAndTryBreakBlock(World world, ServerPlayerEntity player, BlockPos pos, ItemStack hammer, Hand hand) {
         final Block blockToCheck = world.getBlockState(pos).getBlock();
         if (blockToCheck instanceof BlockWithEntity) {
@@ -143,4 +157,7 @@ public class HammerItem extends SwordItem implements CustomRecipeRemainder {
         }
         return true;
     }
+
+     */
 }
+
