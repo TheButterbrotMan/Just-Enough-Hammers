@@ -4,7 +4,5 @@
     "item": "awesome_plates:golden_plate"
   },
   "result": "minecraft:gold_ingot",
-  "experience": 0,
-  "cookingtime": 200,
-  "count": 4
+  "cookingtime": 200
 }

@@ -4,7 +4,5 @@
     "item": "awesome_plates:netherite_plate"
   },
   "result": "minecraft:netherite_ingot",
-  "experience": 0,
-  "cookingtime": 200,
-  "count": 4
+  "cookingtime": 200
 }
