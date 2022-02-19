@@ -1,16 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "XXX",
-    "X X"
-  ],
-  "key": {
-    "X": {
-      "item": "minecraft:diamond"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "awesome_plates:diamond_plate"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_helmet",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:diamond",
-    "count": 5
-  }
 }

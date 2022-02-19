@@ -4,9 +4,9 @@
     "item": "minecraft:diamond_boots"
   },
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "awesome_plates:netherite_plate"
   },
   "result": {
-    "item": "minecraft:air"
+    "item": "minecraft:netherite_boots"
   }
 }
