@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "awesome_plates:diamond_plate"
+  },
+  "result": "minecraft:diamond",
+  "experience": 0,
+  "cookingtime": 200,
+  "count": 4
+}

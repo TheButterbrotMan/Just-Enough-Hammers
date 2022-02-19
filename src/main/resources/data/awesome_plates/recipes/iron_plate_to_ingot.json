@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "awesome_plates:iron_plate"
+  },
+  "result": "minecraft:iron_ingot",
+  "experience": 0,
+  "cookingtime": 200,
+  "count": 4
+}

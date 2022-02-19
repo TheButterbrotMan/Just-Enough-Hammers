@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_block"
+        },
+        {
+            "tag": "awesome_plates:hammers"
+        }
+    ],
+    "result": {
+        "item": "awesome_plates:golden_plate",
+        "count": 8
+    }
+}
