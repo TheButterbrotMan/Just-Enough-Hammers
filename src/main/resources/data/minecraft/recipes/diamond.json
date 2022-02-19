@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond_block"
+        },
+        {
+            "tag": "awesome_plates:hammers"
+        }
+    ],
+    "result": {
+        "item": "awesome_plates:diamond_plate",
+        "count": 8
+    }
+}
