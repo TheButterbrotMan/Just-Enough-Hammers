@@ -33,9 +33,12 @@ public class AreaToolUtil {
             final List<BlockPos> targetBlocks = calcRay(world, player, radius);
             for (BlockPos pos : targetBlocks) {
                 final BlockState state = world.getBlockState(pos);
+                if (!state.isToolRequired()) {
+                    return;
+                }
                 final Block block = state.getBlock();
                 final float hardness = state.getHardness(world, pos);
-                final boolean readyForBreaking = obsidian || (hardness < 50.0F && hardness > 0F);
+                final boolean readyForBreaking = obsidian || (hardness < 50.0F && hardness >= 0F);
 
                 if (readyForBreaking) {
                     if (!(block instanceof BlockEntityProvider)) {

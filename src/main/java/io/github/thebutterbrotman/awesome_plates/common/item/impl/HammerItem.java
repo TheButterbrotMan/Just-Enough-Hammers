@@ -89,7 +89,8 @@ public class HammerItem extends PickaxeItem implements CustomRecipeRemainder {
     /*
     public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
         return miner.isSneaking();
-    }*/
+    }
+     */
 
     /*
     public ActionResult useOnBlock(ItemUsageContext context) {
