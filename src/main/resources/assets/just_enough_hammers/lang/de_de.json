@@ -1,0 +1,17 @@
+{
+  "Hammers": "",
+  "item.just_enough_hammers.wooden_hammer": "Holzhammer",
+  "item.just_enough_hammers.stone_hammer": "Steinhammer",
+  "item.just_enough_hammers.iron_hammer": "Eisenhammer",
+  "item.just_enough_hammers.golden_hammer": "Goldhammer",
+  "item.just_enough_hammers.diamond_hammer": "Diamanthammer",
+  "item.just_enough_hammers.netherite_hammer": "Netherithammer",
+  "item.just_enough_hammers.dirtmond_hammer": "Erdmanthammer",
+  "Plates": "",
+  "tooltip.just_enough_hammers.stability.high": "Hohe",
+  "tooltip.just_enough_hammers.stability.medium": "Mittlere",
+  "tooltip.just_enough_hammers.stability.low": "Niedrige",
+  "tooltip.just_enough_hammers.hammer_1": "{0} Qualität",
+  "tooltip.just_enough_hammers.hammer_2": "Die Qualität des Hammers beeinflusst",
+  "tooltip.just_enough_hammers.hammer_3": "den Schaden, den er bei der Benutzung nimmt."
+}

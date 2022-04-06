@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "awesome_plates:diamond_plate"
-  },
-  "result": "minecraft:diamond",
-  "cookingtime": 200
-}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "awesome_plates:netherite_plate"
-  },
-  "result": "minecraft:netherite_ingot",
-  "cookingtime": 100
-}

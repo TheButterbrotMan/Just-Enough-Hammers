@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "awesome_plates",
+  "id": "just_enough_hammers",
   "version": "${version}",
   "name": "Awesome Plates",
   "description": "Awesome Plates revamps the armor crafting process in Minecraft.",
@@ -11,15 +11,15 @@
   "contact": {
     "repo": "https://github.com/TheButterbrotMan/Awesome-Plates"
   },
-  "license": "All-Rights-Reserved",
-  "icon": "assets/awesome_plates/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/just_enough_hammers/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "io.github.thebutterbrotman.awesome_plates.client.AwesomeplatesClient"
+      "io.github.thebutterbrotman.just_enough_hammers.client.AwesomeplatesClient"
     ],
     "main": [
-      "io.github.thebutterbrotman.awesome_plates.AwesomePlates"
+      "io.github.thebutterbrotman.just_enough_hammers.AwesomePlates"
     ]
   },
   "depends": {

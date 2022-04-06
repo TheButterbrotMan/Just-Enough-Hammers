@@ -1,0 +1,17 @@
+{
+  "Hammers": "",
+  "item.just_enough_hammers.wooden_hammer": "木锤",
+  "item.just_enough_hammers.stone_hammer": "石锤",
+  "item.just_enough_hammers.iron_hammer": "铁锤",
+  "item.just_enough_hammers.golden_hammer": "金锤",
+  "item.just_enough_hammers.diamond_hammer": "钻石锤",
+  "item.just_enough_hammers.netherite_hammer": "下界合金锤",
+  "item.just_enough_hammers.dirtmond_hammer": "泥土钻石锤",
+  "Plates": "",
+  "tooltip.just_enough_hammers.stability.high": "高",
+  "tooltip.just_enough_hammers.stability.medium": "中等",
+  "tooltip.just_enough_hammers.stability.low": "低",
+  "tooltip.just_enough_hammers.hammer_1": "{0}品质",
+  "tooltip.just_enough_hammers.hammer_2": "锤子的品质高低影响其",
+  "tooltip.just_enough_hammers.hammer_3": "参与合成时受到的损耗"
+}

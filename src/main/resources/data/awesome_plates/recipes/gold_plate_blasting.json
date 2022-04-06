@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "awesome_plates:golden_plate"
-  },
-  "result": "minecraft:gold_ingot",
-  "cookingtime": 100
-}

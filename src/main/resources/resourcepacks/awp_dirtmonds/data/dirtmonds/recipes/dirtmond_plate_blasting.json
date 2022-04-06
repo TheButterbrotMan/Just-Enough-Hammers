@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "awesome_plates:dirtmond_plate"
-  },
-  "result": "dirtmonds:dirtmond",
-  "cookingtime": 100
-}
