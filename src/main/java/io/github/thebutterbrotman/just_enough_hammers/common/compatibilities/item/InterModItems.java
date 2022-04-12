@@ -23,7 +23,7 @@ public class InterModItems {
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, false);
 
             Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
-                    , new HammerItem(1051, ToolMaterials.DIAMOND, 6, -3.0F));
+                    , new HammerItem(1051, ToolMaterials.DIAMOND, 4, -3.0F));
 
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, true);
         }

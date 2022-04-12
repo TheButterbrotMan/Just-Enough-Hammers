@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "awesome_plates:wooden_hammer",
-    "awesome_plates:stone_hammer",
-    "awesome_plates:iron_hammer",
-    "awesome_plates:golden_hammer",
-    "awesome_plates:diamond_hammer",
-    "awesome_plates:netherite_hammer"
+    "just_enough_hammers:wooden_hammer",
+    "just_enough_hammers:stone_hammer",
+    "just_enough_hammers:iron_hammer",
+    "just_enough_hammers:golden_hammer",
+    "just_enough_hammers:diamond_hammer",
+    "just_enough_hammers:netherite_hammer"
   ]
 }

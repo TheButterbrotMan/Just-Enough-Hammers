@@ -17,8 +17,8 @@
         }
     },
     "result": {
-        "item": "awesome_plates:iron_hammer",
+        "item": "just_enough_hammers:iron_hammer",
         "count": 1
     },
-    "group": "awesome_plates"
+    "group": "just_enough_hammers"
 }
