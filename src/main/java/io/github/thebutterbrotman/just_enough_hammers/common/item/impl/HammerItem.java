@@ -71,7 +71,7 @@ public class HammerItem extends PickaxeItem implements CustomRecipeRemainder {
         return stack;
     }
 
-    /*public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity playerIn) {
+    public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity playerIn) {
         if (!world.isClient) {
             if (!playerIn.isSneaking()) {
                 final boolean obsidianFlag = state.getBlock() == Blocks.OBSIDIAN || state.getBlock() == Blocks.CRYING_OBSIDIAN;
@@ -84,16 +84,15 @@ public class HammerItem extends PickaxeItem implements CustomRecipeRemainder {
         return false;
 
     }
-    
 
     //Add this to prevent player breaking block by left-clicking when not sneaking
-    
+    /*
     public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
         return miner.isSneaking();
     }
-     
+     */
 
-    
+    /*
     public ActionResult useOnBlock(ItemUsageContext context) {
         final PlayerEntity player = context.getPlayer();
         if (player == null) {
