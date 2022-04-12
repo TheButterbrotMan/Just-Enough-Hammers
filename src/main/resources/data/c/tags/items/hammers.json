@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "just_enough_hammers:wooden_hammer",
+    "just_enough_hammers:stone_hammer",
+    "just_enough_hammers:iron_hammer",
+    "just_enough_hammers:golden_hammer",
+    "just_enough_hammers:diamond_hammer",
+    "just_enough_hammers:netherite_hammer"
+  ]
+}
