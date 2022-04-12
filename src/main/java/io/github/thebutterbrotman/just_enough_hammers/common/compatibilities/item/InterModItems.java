@@ -1,6 +1,6 @@
 package io.github.thebutterbrotman.just_enough_hammers.common.compatibilities.item;
 
-import io.github.thebutterbrotman.just_enough_hammers.AwesomePlates;
+import io.github.thebutterbrotman.just_enough_hammers.JustEnoughHammers;
 import io.github.thebutterbrotman.just_enough_hammers.common.compatibilities.util.IMUtils;
 import io.github.thebutterbrotman.just_enough_hammers.common.item.impl.HammerItem;
 import net.minecraft.item.Item;
@@ -12,7 +12,7 @@ import net.minecraft.util.registry.Registry;
 public class InterModItems {
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(AwesomePlates.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(JustEnoughHammers.MOD_ID, name), item);
 
     }
 

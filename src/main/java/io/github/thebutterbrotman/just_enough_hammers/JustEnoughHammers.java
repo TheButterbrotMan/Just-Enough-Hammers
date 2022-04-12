@@ -7,7 +7,7 @@ import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class AwesomePlates implements ModInitializer {
+public class JustEnoughHammers implements ModInitializer {
 
     public static final String MOD_ID = "just_enough_hammers";
     public static final Logger LOGGER = LogManager.getLogger();

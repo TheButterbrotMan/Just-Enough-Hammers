@@ -1,6 +1,6 @@
 package io.github.thebutterbrotman.just_enough_hammers.common.item;
 
-import io.github.thebutterbrotman.just_enough_hammers.AwesomePlates;
+import io.github.thebutterbrotman.just_enough_hammers.JustEnoughHammers;
 import io.github.thebutterbrotman.just_enough_hammers.common.item.impl.HammerItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterials;
@@ -40,7 +40,7 @@ public class ModItems {
             , new HammerItem(2031, ToolMaterials.NETHERITE, 6, -3.2F));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(AwesomePlates.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(JustEnoughHammers.MOD_ID, name), item);
     }
 
     public static void registerItems() {

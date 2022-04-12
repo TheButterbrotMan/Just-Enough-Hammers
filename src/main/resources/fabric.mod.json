@@ -2,29 +2,29 @@
   "schemaVersion": 1,
   "id": "just_enough_hammers",
   "version": "${version}",
-  "name": "Awesome Plates",
-  "description": "Awesome Plates revamps the armor crafting process in Minecraft.",
+  "name": "Just Enough Hammers",
+  "description": "This mod adds hammers to the game that can be used for mining and in recipes..",
   "authors": [
     "TheButterbrotMan",
     "Mikhail Tapio"
   ],
   "contact": {
-    "repo": "https://github.com/TheButterbrotMan/Awesome-Plates"
+    "repo": "https://github.com/TheButterbrotMan/Just-Enough-Hammers"
   },
   "license": "GPL-3.0",
   "icon": "assets/just_enough_hammers/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "io.github.thebutterbrotman.just_enough_hammers.client.AwesomeplatesClient"
+      "io.github.thebutterbrotman.just_enough_hammers.client.JustenoughhammersClient"
     ],
     "main": [
-      "io.github.thebutterbrotman.just_enough_hammers.AwesomePlates"
+      "io.github.thebutterbrotman.just_enough_hammers.JustEnoughHammers"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.12.12",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.x"
+    "minecraft": "1.18.2"
   }
 }
