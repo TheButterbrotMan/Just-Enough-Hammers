@@ -1,0 +1,17 @@
+{
+  "Hammers": "",
+  "item.just_enough_hammers.wooden_hammer": "Martelo de madeira",
+  "item.just_enough_hammers.stone_hammer": "Martelo de pedra",
+  "item.just_enough_hammers.iron_hammer": "Martelo de ferro",
+  "item.just_enough_hammers.golden_hammer": "Martelo de ouro",
+  "item.just_enough_hammers.diamond_hammer": "Martelo de diamante",
+  "item.just_enough_hammers.netherite_hammer": "Martelo de netherita",
+  "item.just_enough_hammers.dirtmond_hammer": "Martelo de Terramante",
+  "Plates": "",
+  "tooltip.just_enough_hammers.stability.high": "Alta",
+  "tooltip.just_enough_hammers.stability.medium": "Média",
+  "tooltip.just_enough_hammers.stability.low": "Baixa",
+  "tooltip.just_enough_hammers.hammer_1": "{0} qualidade",
+  "tooltip.just_enough_hammers.hammer_2": "A qualidade do martelo afeta",
+  "tooltip.just_enough_hammers.hammer_3": "os danos que causa durante o uso."
+}
