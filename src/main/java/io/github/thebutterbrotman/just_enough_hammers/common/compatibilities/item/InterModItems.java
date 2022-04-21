@@ -23,7 +23,7 @@ public class InterModItems {
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, false);
 
             Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
-                    , new HammerItem(116, ToolMaterials.DIAMOND, 4, -3.0F));
+                    , new HammerItem(116, ToolMaterials.DIAMOND, -1, -3.0F));
 
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, true);
         }
@@ -32,14 +32,14 @@ public class InterModItems {
             IMUtils.logInterModRegStatus(IMUtils.THERRASSIUM_MODNAME, IMUtils.REG, false);
 
             Item THERRASSIUM_HAMMER = registerItem("therrassium_hammer"
-                    , new HammerItem(451, ToolMaterials.DIAMOND, 21, -3.0F));
+                    , new HammerItem(451, ToolMaterials.DIAMOND, 17, -3.0F));
         }
         //Amethyst Equipment
         if (IMUtils.AMETHYSTEQUIPMENT_LOADED) {
             IMUtils.logInterModRegStatus(IMUtils.AMETHYSTEQUIPMENT_MODNAME, IMUtils.REG, false);
 
             Item AMETHYST_HAMMER = registerItem("amethyst_hammer"
-                    , new HammerItem(4, ToolMaterials.GOLD, 3, -3.0F));
+                    , new HammerItem(4, ToolMaterials.GOLD, 1, -3.0F));
         }
         //AdventureZ
         if (IMUtils.ADVENTUREZ_LOADED) {
