@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "S": {
+            "item": "minecraft:amethyst_block"
+        },
+        "/": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "item": "just_enough_hammers:amethyst_hammer",
+        "count": 1
+    },
+    "group": "just_enough_hammers"
+}

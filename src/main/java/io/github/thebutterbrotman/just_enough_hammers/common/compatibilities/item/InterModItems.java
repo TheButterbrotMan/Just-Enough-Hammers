@@ -23,10 +23,31 @@ public class InterModItems {
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, false);
 
             Item DIRTMOND_HAMMER = registerItem("dirtmond_hammer"
-                    , new HammerItem(1051, ToolMaterials.DIAMOND, 4, -3.0F));
+                    , new HammerItem(116, ToolMaterials.DIAMOND, 4, -3.0F));
 
             IMUtils.logInterModRegStatus(IMUtils.DIRTMONDS_MODNAME, IMUtils.REG, true);
         }
+        //Therrassium
+        if (IMUtils.THERRASSIUM_LOADED) {
+            IMUtils.logInterModRegStatus(IMUtils.THERRASSIUM_MODNAME, IMUtils.REG, false);
+
+            Item THERRASSIUM_HAMMER = registerItem("therrassium_hammer"
+                    , new HammerItem(451, ToolMaterials.DIAMOND, 21, -3.0F));
+        }
+        //Amethyst Equipment
+        if (IMUtils.AMETHYSTEQUIPMENT_LOADED) {
+            IMUtils.logInterModRegStatus(IMUtils.AMETHYSTEQUIPMENT_MODNAME, IMUtils.REG, false);
+
+            Item AMETHYST_HAMMER = registerItem("amethyst_hammer"
+                    , new HammerItem(4, ToolMaterials.GOLD, 3, -3.0F));
+        }
+        //AdventureZ
+        if (IMUtils.ADVENTUREZ_LOADED) {
+            IMUtils.logInterModRegStatus(IMUtils.ADVENTUREZ_MODNAME, IMUtils.REG, false);
+
+            Item GILDED_NETHERITE_HAMMER = registerItem("gilded_netherite_hammer"
+                    , new HammerItem(336, ToolMaterials.DIAMOND, 4, -3.0F));
+        }
+        IMUtils.logInterModRegStatus(IMUtils.ADVENTUREZ_MODNAME, IMUtils.REG, true);
     }
 }
-

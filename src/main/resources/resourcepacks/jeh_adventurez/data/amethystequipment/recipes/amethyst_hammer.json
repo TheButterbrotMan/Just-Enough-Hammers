@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "adventurez:gilded_netherite_fragment"
+        },
+        "S": {
+            "item": "adventurez:gilded_blackstone"
+        },
+        "/": {
+            "item": "adventurez:gilded_netherite_fragment"
+        }
+    },
+    "result": {
+        "item": "just_enough_hammers:gilded_netherite_hammer",
+        "count": 1
+    },
+    "group": "just_enough_hammers"
+}
