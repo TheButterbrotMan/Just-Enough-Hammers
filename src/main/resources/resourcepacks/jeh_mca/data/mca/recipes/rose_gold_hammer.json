@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "mca:rose_gold_ingot"
+        },
+        "S": {
+            "item": "mca:rose_gold_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "just_enough_hammers:rose_gold_hammer",
+        "count": 1
+    },
+    "group": "just_enough_hammers"
+}

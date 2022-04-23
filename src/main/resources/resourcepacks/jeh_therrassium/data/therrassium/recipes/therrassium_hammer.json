@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_S_",
+        " / ",
+        " / "
+    ],
+    "key": {
+        "_": {
+            "item": "therrassium:therrassium_ingot"
+        },
+        "S": {
+            "item": "therrassium:therrassium_block"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "just_enough_hammers:therrassium_hammer",
+        "count": 1
+    },
+    "group": "just_enough_hammers"
+}
