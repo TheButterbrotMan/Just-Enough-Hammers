@@ -13,7 +13,7 @@
             "item": "therrassium:therrassium_block"
         },
         "/": {
-            "item": "therrassium:therrassium_ingot"
+            "item": "minecraft:stick"
         }
     },
     "result": {
