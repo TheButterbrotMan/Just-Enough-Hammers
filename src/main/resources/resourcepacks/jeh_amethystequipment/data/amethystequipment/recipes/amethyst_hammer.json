@@ -13,7 +13,7 @@
             "item": "minecraft:amethyst_block"
         },
         "/": {
-            "item": "minecraft:amethyst_shard"
+            "item": "minecraft:stick"
         }
     },
     "result": {
