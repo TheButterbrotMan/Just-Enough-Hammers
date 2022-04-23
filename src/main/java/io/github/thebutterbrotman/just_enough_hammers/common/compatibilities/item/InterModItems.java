@@ -48,6 +48,14 @@ public class InterModItems {
             Item GILDED_NETHERITE_HAMMER = registerItem("gilded_netherite_hammer"
                     , new HammerItem(336, ToolMaterials.DIAMOND, 4, -3.0F));
         }
+
+        //Minecraft Comes Alive
+        if (IMUtils.MCA_LOADED) {
+            IMUtils.logInterModRegStatus(IMUtils.MCA_MODNAME, IMUtils.REG, false);
+
+            Item ROSE_GOLD_HAMMER = registerItem("rose_gold_hammer"
+                    , new HammerItem(250, ToolMaterials.IRON, 0, -3.0F));
+        }
         IMUtils.logInterModRegStatus(IMUtils.ADVENTUREZ_MODNAME, IMUtils.REG, true);
     }
 }

@@ -30,6 +30,11 @@ public class IMUtils {
     //AdventureZ
     public static final String ADVENTUREZ_MODID = "adventurez";
     public static final String ADVENTUREZ_MODNAME = "Adventure Z";
+
+    //Minecraft Comes Alive
+    public static final String MCA_MODID = "mca";
+    public static final String MCA_MODNAME = "Minecraft Comes Alive";
+
     public static void logInterModRegStatus(String modName, String element, boolean isFinished) {
         JustEnoughHammers.LOGGER.info(MessageFormat.format((isFinished) ? LOADED : LOADING, modName, element));
     }
@@ -38,4 +43,5 @@ public class IMUtils {
     public static final boolean THERRASSIUM_LOADED = FabricLoader.getInstance().isModLoaded(THERRASSIUM_MODID);
     public static final boolean AMETHYSTEQUIPMENT_LOADED = FabricLoader.getInstance().isModLoaded(AMETHYSTEQUIPMENT_MODID);
     public static final boolean ADVENTUREZ_LOADED = FabricLoader.getInstance().isModLoaded(ADVENTUREZ_MODID);
+    public static final boolean MCA_LOADED = FabricLoader.getInstance().isModLoaded(MCA_MODID);
 }

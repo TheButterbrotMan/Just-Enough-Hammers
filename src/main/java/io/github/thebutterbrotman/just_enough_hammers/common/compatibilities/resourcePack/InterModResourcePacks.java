@@ -15,6 +15,7 @@ public class InterModResourcePacks {
         if (IMUtils.THERRASSIUM_LOADED) lazyRegisterBuiltIn(IMUtils.THERRASSIUM_MODID, IMUtils.THERRASSIUM_MODNAME);
         if (IMUtils.AMETHYSTEQUIPMENT_LOADED) lazyRegisterBuiltIn(IMUtils.AMETHYSTEQUIPMENT_MODID, IMUtils.AMETHYSTEQUIPMENT_MODNAME);
         if (IMUtils.ADVENTUREZ_LOADED) lazyRegisterBuiltIn(IMUtils.ADVENTUREZ_MODID, IMUtils.ADVENTUREZ_MODNAME);
+        if (IMUtils.MCA_LOADED) lazyRegisterBuiltIn(IMUtils.MCA_MODID, IMUtils.MCA_MODNAME);
     }
 
     public static void lazyRegisterBuiltIn(String modid, String modName) {
