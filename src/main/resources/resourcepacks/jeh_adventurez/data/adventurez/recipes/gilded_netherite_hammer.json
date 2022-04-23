@@ -13,7 +13,7 @@
             "item": "adventurez:gilded_blackstone"
         },
         "/": {
-            "item": "adventurez:gilded_netherite_fragment"
+            "item": "minecraft:stick"
         }
     },
     "result": {
