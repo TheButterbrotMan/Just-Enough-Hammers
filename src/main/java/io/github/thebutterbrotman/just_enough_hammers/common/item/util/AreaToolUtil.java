@@ -24,17 +24,19 @@ import java.util.Map;
 
 //Original Author:kwpugh
 public class AreaToolUtil {
-    public static void attemptBreakNeighbors(World world, PlayerEntity player, int radius, boolean obsidian) {
+    public static byte attemptBreakNeighbors(World world, PlayerEntity player, int radius, boolean obsidian) {
+        byte b = 0;
         if (!world.isClient) {
             final Hand hand = player.getActiveHand();
             final ItemStack stack = player.getStackInHand(hand);
             final Map<Enchantment, Integer> enchantments = EnchantmentHelper.get(player.getMainHandStack());
             final boolean silkTouch = enchantments.containsKey(Enchantments.SILK_TOUCH);
             final List<BlockPos> targetBlocks = calcRay(world, player, radius);
+            b = 0;
             for (BlockPos pos : targetBlocks) {
                 final BlockState state = world.getBlockState(pos);
                 if (!state.isToolRequired()) {
-                    return;
+                    continue;
                 }
                 final Block block = state.getBlock();
                 final float hardness = state.getHardness(world, pos);
@@ -50,10 +52,12 @@ public class AreaToolUtil {
                             // drops stacks
                             Block.dropStacks(state, world, pos, null, player, stack);   // USe this version to account for enchantments on stack
                         }
+                        b++;
                     }
                 }
             }
         }
+        return b;
     }
 
     public static List<BlockPos> calcRay(World world, PlayerEntity playerIn, int radius) {
@@ -72,7 +76,7 @@ public class AreaToolUtil {
             for (int x = -radius; x <= radius; x++) {
                 for (int y = -radius; y <= radius; y++) {
                     for (int z = -radius; z <= radius; z++) {
-                        targetPos.add(new BlockPos(x, y, z));
+                        if (x != 0 || y != 0 || z != 0) targetPos.add(new BlockPos(x, y, z));
                     }
                 }
             }
