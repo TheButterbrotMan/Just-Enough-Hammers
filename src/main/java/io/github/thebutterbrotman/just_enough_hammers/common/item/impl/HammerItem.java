@@ -11,6 +11,7 @@ import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -72,17 +73,13 @@ public class HammerItem extends PickaxeItem implements CustomRecipeRemainder {
     }
 
     public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity playerIn) {
-        if (!world.isClient) {
-            if (!playerIn.isSneaking()) {
-                final boolean obsidianFlag = state.getBlock() == Blocks.OBSIDIAN || state.getBlock() == Blocks.CRYING_OBSIDIAN;
-                AreaToolUtil.attemptBreakNeighbors(world, playerIn, 1, obsidianFlag);
-            }
-
-            return true;
-        }
-
-        return false;
-
+        if (world.isClient) return true;
+        if (playerIn.isSneaking()) return true;
+        final boolean obsidianFlag = state.getBlock() == Blocks.OBSIDIAN || state.getBlock() == Blocks.CRYING_OBSIDIAN;
+        final byte dmg = AreaToolUtil.attemptBreakNeighbors(world, playerIn, 1, obsidianFlag);
+        final Hand hand = (playerIn.getStackInHand(Hand.MAIN_HAND).getItem() instanceof HammerItem) ? Hand.MAIN_HAND : Hand.OFF_HAND;
+        playerIn.getStackInHand(hand).damage(dmg, playerIn, player -> player.sendToolBreakStatus(hand));
+        return true;
     }
 
     //Add this to prevent player breaking block by left-clicking when not sneaking
