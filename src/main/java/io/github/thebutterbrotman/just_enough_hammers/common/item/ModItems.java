@@ -11,7 +11,7 @@ public class ModItems {
 
     //Wooden
     public static final Item WOODEN_HAMMER = registerItem("wooden_hammer"
-            , new HammerItem(6, ToolMaterials.WOOD, 6, -3.2F));
+            , new HammerItem(59, ToolMaterials.WOOD, 1, -3.2F));
     //Above is a typical setting for hammerItem.
     //Tool material is mainly used for defining a default durability(will be overridden by Item.Settings.maxDamage(*) so no worry :D ), also defining the item
     //to be used for repairing. There's a problem that if we want to define dirtmond material for dirtmond hammer, we may have to use its API. What's more, maybe
@@ -21,23 +21,23 @@ public class ModItems {
 
     //Stone
     public static final Item STONE_HAMMER = registerItem("stone_hammer"
-            , new HammerItem(14, ToolMaterials.STONE, 6, -3.2F));
+            , new HammerItem(131, ToolMaterials.STONE, 1, -3.2F));
 
     //Iron
     public static final Item IRON_HAMMER = registerItem("iron_hammer"
-            , new HammerItem(27, ToolMaterials.IRON, 6, -3.2F));
+            , new HammerItem(250, ToolMaterials.IRON, 1, -3.2F));
 
     //Golden
     public static final Item GOLDEN_HAMMER = registerItem("golden_hammer"
-            , new HammerItem(6, ToolMaterials.GOLD, 6, -3.2F));
+            , new HammerItem(32, ToolMaterials.GOLD, 1, -3.2F));
 
     //Diamond
     public static final Item DIAMOND_HAMMER = registerItem("diamond_hammer"
-            , new HammerItem(173, ToolMaterials.DIAMOND, 6, -3.2F));
+            , new HammerItem(1561, ToolMaterials.DIAMOND, 1, -3.2F));
 
     //Netherite
     public static final Item NETHERITE_HAMMER = registerItem("netherite_hammer"
-            , new HammerItem(225, ToolMaterials.NETHERITE, 6, -3.2F));
+            , new HammerItem(2031, ToolMaterials.NETHERITE, 1, -3.2F));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(JustEnoughHammers.MOD_ID, name), item);
